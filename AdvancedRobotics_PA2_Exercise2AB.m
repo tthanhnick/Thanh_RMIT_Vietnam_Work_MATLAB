@@ -1,13 +1,13 @@
-MANU2478 -  Practical Assessment 2
-Course: Advanced Robotics. 
-Nguyen Tien Thanh - S3818111
+%MANU2478 -  Practical Assessment 2
+%Course: Advanced Robotics. 
+%Nguyen Tien Thanh - S3818111
 clearvars
 close all
 clc
 
-Problem 2
-Cubic polynomial
-Cubic parameter and also quintic parameter
+%Problem 2
+%Cubic polynomial
+%Cubic parameter and also quintic parameter
 disp('Problem 2')
 % input parameters
 t0=0; tf =1;
@@ -19,7 +19,7 @@ disp('Cubic polynomial')
 % User defined function to calculate a0 a1 a2 a3 parameter
 [a0, a1, a2, a3]=cubic(tf,u0,uf);
 Plot the graph
-Position
+%Position
 % position
 % Subplot to put graph verically
 subplot(4,1,1);
@@ -34,7 +34,7 @@ title('angular position');
 ylabel('s');
 xlabel('t (seconds)');
 grid on;
-Velocity
+%Velocity
 % velocity
 % Subplot to put graph verically
 subplot(4,1,2);
@@ -47,7 +47,7 @@ title('angular velocity');
 ylabel('ds/dt');
 xlabel('t (seconds)');
 grid on;
-Acceleration 
+%Acceleration 
 % acceleration
 % Subplot to put graph verically
 subplot(4,1,3);
@@ -60,7 +60,7 @@ ylabel('ds^2/dt^2');
 xlabel('t (seconds)');
 title('angular acceleration');
 grid on;
-Jerk
+%Jerk
 % jerk
 % Subplot to put graph verically
 subplot(4,1,4);
@@ -74,13 +74,13 @@ xlabel('t (seconds)');
 title('angular jerk');
 grid on;
 
-Quintic polynomial
-Plot the graph
-Quintic polynomial calculation
+%%Quintic polynomial
+%Plot the graph
+%Quintic polynomial calculation
 % User defined function to calculate a0 a1 a2 a3 parameter
 disp('Quintic polynomial')
 [a0, a1, a2, a3,a4,a5]=quintic(tf,u0,uf,udot0,udotf,uddot0,uddotf);
-Position
+%Position
 % position
 % Subplot to put graph verically
 subplot(4,1,1);
@@ -95,7 +95,7 @@ title('angular position');
 ylabel('s');
 xlabel('t (seconds)');
 grid on;
-Velocity
+%Velocity
 % velocity
 % Subplot to put graph verically
 subplot(4,1,2);
@@ -108,7 +108,7 @@ title('angular velocity');
 ylabel('ds/dt');
 xlabel('t (seconds)');
 grid on;
-Acceleration
+%Acceleration
 % acceleration
 % Subplot to put graph verically
 subplot(4,1,3);
@@ -120,7 +120,7 @@ ylabel('ds^2/dt^2');
 xlabel('t (seconds)');
 title('angular acceleration');
 grid on;
-Jerk
+%Jerk
 % jerk
 % Subplot to put graph verically
 subplot(4,1,4);
