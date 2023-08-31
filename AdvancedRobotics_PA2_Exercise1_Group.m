@@ -2,7 +2,7 @@
 
 %MANU2478 -  Practical Assessment 2
 %Course: Advanced Robotics. 
-%Nguyen Tien Thanh - S3818111
+%Group Assignment
 clearvars
 close all
 clc
