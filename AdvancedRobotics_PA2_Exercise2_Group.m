@@ -1,3 +1,4 @@
+%% Exercise 2
 % Link length input
 L0 = 270.35;
 L1 = 69;
