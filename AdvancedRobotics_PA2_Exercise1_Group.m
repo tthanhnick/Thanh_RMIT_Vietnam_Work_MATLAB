@@ -1,5 +1,4 @@
 % Reference: R. L. Williams, Baxter Humanoid Robot Kinematics, III. Mechanical Engineering, Ohio University: Dr. Bob Productions, n.d.. 
-
 %MANU2478 -  Practical Assessment 2
 %Course: Advanced Robotics. 
 %Group Assignment
