@@ -1,5 +1,6 @@
 % Advanced Robotics
 % Group Assignment
+% MANU2478 -  Practical Assessment 2
 %%Exercise 2
 % Link length input
 L0 = 270.35;
