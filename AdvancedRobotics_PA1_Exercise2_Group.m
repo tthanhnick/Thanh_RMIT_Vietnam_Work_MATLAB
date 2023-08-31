@@ -1,3 +1,5 @@
+%MANU2478 -  Practical Assessment 2
+% Group project
 %% Exercise 2A
 
 clearvars
