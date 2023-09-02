@@ -1,4 +1,4 @@
-# Thanh_RMIT_Vietnam_Work_MATLAB
+# Thanh_Work_MATLAB
 First of all, this work is related to mechatronics and robotics, especially in engineering calculation.
 These files were mainly written in MATLAB.
 This is my work as an engineering student at RMIT University Vietnam. Some of my works may contain codes from my studied courses and online sources.
